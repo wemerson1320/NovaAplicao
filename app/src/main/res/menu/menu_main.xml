@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.administrador.meuteste.MainActivity">
+    <item
+        android:id="@+id/action_testesem"
+        android:orderInCategory="100"
+        android:title="Teste Volta sem parametro"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_testecom"
+        android:orderInCategory="100"
+        android:title="Teste Volta com parametro"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_bd"
+        android:orderInCategory="100"
+        android:title="Teste de BD"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sair"
+        android:orderInCategory="100"
+        android:title="Sair"
+        app:showAsAction="never" />
+</menu>
